@@ -12,8 +12,8 @@
   "scripts": {
     "// REFERENCE SCRIPT b": "CONTEXT=$(pwd) npm explore begin-project -- npm run",
     "b": "CONTEXT=$(pwd) npm run",
-    "lint": "eslint --ignore-path $CONTEXT/.gitignore --format=node_modules/eslint-formatter-pretty $CONTEXT",
-    "lint:pug": "pug-lint --reporter node_modules/puglint-stylish $CONTEXT/src/",
+    "lint": "eslint --ignore-path $CONTEXT/.gitignore --format=$CONTEXT/node_modules/eslint-formatter-pretty $CONTEXT",
+    "lint:pug": "pug-lint --reporter $CONTEXT/node_modules/puglint-stylish $CONTEXT/src/",
     "changelog": "cd $CONTEXT; conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "docs": "cd $CONTEXT; jsdoc2md --template docs.hbs --files *.js > README.md",
     "test:watch": "cd $CONTEXT; ava -w test.js */test.js src/**/test.js",
