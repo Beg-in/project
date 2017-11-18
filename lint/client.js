@@ -8,16 +8,8 @@
  * module.exports = require('begin-linting/webpack');
  */
 module.exports = {
-  env: {
-    browser: true,
-    commonjs: true,
-  },
   rules: {
     strict: ['error', 'never'],
-    'import/no-extraneous-dependencies': ['error', {
-      devDependencies: true,
-      optionalDependencies: false,
-      peerDependencies: false,
-    }],
+    'import/no-extraneous-dependencies': 0,
   },
 };
