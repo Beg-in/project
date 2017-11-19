@@ -1,10 +1,20 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/Beg-in/project/compare/0.1.2...0.2.0) (2017-11-19)
+
+
+### Reverts
+
+* **scripts:** remove docs ([8296817](https://github.com/Beg-in/project/commit/8296817))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/Beg-in/project/compare/0.1.1...0.1.2) (2017-11-18)
 
 
 ### Features
 
-* **scripts:** add version commands ([399717f](https://github.com/Beg-in/project/commit/399717f))
+* **scripts:** add version commands ([5afae4a](https://github.com/Beg-in/project/commit/5afae4a))
 
 
 

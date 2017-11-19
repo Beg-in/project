@@ -1,6 +1,6 @@
 {
   "name": "begin-project",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Tools for all Beg.in projects",
   "engines": {
     "node": ">=7.6"
@@ -41,17 +41,16 @@
   },
   "homepage": "https://github.com/Beg-in/project#readme",
   "dependencies": {
-    "ava": "^0.22.0",
+    "ava": "0.23.0",
     "commitizen": "2.9.6",
-    "conventional-changelog-cli": "^1.3.4",
-    "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^4.8.0",
-    "eslint-config-airbnb-base": "^12.0.2",
+    "conventional-changelog-cli": "1.3.5",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "4.11.0",
+    "eslint-config-airbnb-base": "12.1.0",
     "eslint-formatter-pretty": "^1.3.0",
     "eslint-plugin-ava": "^4.2.2",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-import": "2.8.0",
     "eslint-plugin-security": "1.4.0",
-    "jsdoc-to-markdown": "3.0.0",
     "pug-lint": "^2.5.0",
     "pug-lint-config-clock": "2.0.0",
     "puglint-stylish": "0.1.1"
