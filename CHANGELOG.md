@@ -1,10 +1,15 @@
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/Beg-in/project/compare/0.2.0...0.2.1) (2018-01-20)
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/Beg-in/project/compare/0.1.2...0.2.0) (2017-11-19)
 
 
 ### Reverts
 
-* **scripts:** remove docs ([8296817](https://github.com/Beg-in/project/commit/8296817))
+* **scripts:** remove docs ([e71f9e9](https://github.com/Beg-in/project/commit/e71f9e9))
 
 
 

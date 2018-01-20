@@ -1,6 +1,6 @@
 {
   "name": "begin-project",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Tools for all Beg.in projects",
   "engines": {
     "node": ">=7.6"
@@ -21,10 +21,14 @@
     "cz": "./cz.js",
     "version:set": "cd $CONTEXT; npm version --git-tag-version=false",
     "version:tag": "cd $CONTEXT; git add package.json && git commit -m 'version' && conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && git reset --soft HEAD~1 && git commit --amend --no-edit && git tag -a $(node -e \"console.log(require('./package').version)\") -m",
+    "version:push": "cd $CONTEXT; git push origin $(node -e \"console.log(require('./package').version)\")",
     "patch": "npm run version:set patch && npm run version:tag",
-    "major": "npm run version:set major && npm run version:tag",
+    "postpatch": "npm run version:push",
     "minor": "npm run version:set minor && npm run version:tag",
-    "version:push": "cd $CONTEXT; git push origin $(node -e \"console.log(require('./package').version)\")"
+    "postminor": "npm run version:push",
+    "major": "npm run version:set major && npm run version:tag",
+    "postmajor": "npm run version:push",
+    "commit": "(npm run --silent lint:error -- --fix; exit 0) && npm run cz"
   },
   "repository": "Beg-in/project",
   "author": {
@@ -41,14 +45,14 @@
   },
   "homepage": "https://github.com/Beg-in/project#readme",
   "dependencies": {
-    "ava": "0.23.0",
+    "ava": "0.24.0",
     "commitizen": "2.9.6",
     "conventional-changelog-cli": "1.3.5",
     "cz-conventional-changelog": "2.1.0",
-    "eslint": "4.11.0",
+    "eslint": "4.15.0",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-formatter-pretty": "^1.3.0",
-    "eslint-plugin-ava": "^4.2.2",
+    "eslint-plugin-ava": "4.4.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-security": "1.4.0",
     "pug-lint": "^2.5.0",
