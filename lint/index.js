@@ -62,6 +62,7 @@ module.exports = {
       selector: 'WithStatement',
       message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
     }],
+    'security/detect-object-injection': 0,
     'ava/no-ignored-test-files': ['error', {
       files: TEST_FILES.map(file => `../${file}`).concat(TEST_FILES),
     }],

@@ -1,10 +1,15 @@
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/Beg-in/project/compare/0.3.0...0.3.1) (2018-02-27)
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/Beg-in/project/compare/0.2.1...0.3.0) (2018-02-02)
 
 
 ### Bug Fixes
 
-* **lint:** remove global-require for client-side code ([7e673eb](https://github.com/Beg-in/project/commit/7e673eb))
+* **lint:** remove global-require for client-side code ([b055d2e](https://github.com/Beg-in/project/commit/b055d2e))
 
 
 
