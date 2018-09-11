@@ -1,3 +1,13 @@
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/Beg-in/project/compare/0.3.1...0.4.0) (2018-09-11)
+
+
+### Bug Fixes
+
+* **lint:** test files in correct parent directory ([d232f34](https://github.com/Beg-in/project/commit/d232f34))
+
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/Beg-in/project/compare/0.3.0...0.3.1) (2018-02-27)
 

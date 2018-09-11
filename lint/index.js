@@ -64,7 +64,7 @@ module.exports = {
     }],
     'security/detect-object-injection': 0,
     'ava/no-ignored-test-files': ['error', {
-      files: TEST_FILES.map(file => `../${file}`).concat(TEST_FILES),
+      files: TEST_FILES.map(file => `../../${file}`).concat(TEST_FILES),
     }],
     'ava/assertion-arguments': 'error',
     'ava/max-asserts': ['off', 5],
