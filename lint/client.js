@@ -8,6 +8,8 @@
  * module.exports = require('begin-linting/webpack');
  */
 module.exports = {
+  extends: ['plugin:vue/strongly-recommended'],
+  overrides: [{ files: ['*.vue'], rules: { indent: 'off' } }],
   rules: {
     strict: ['error', 'never'],
     'global-require': 0,
