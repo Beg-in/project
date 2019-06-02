@@ -15,4 +15,3 @@ bootstrap({
     path: 'cz-conventional-changelog',
   },
 });
-
